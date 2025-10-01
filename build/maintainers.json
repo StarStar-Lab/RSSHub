@@ -81,6 +81,9 @@
   "/0x80/blog": [
     "xnum"
   ],
+  "/0xxx/:filter?": [
+    "nczitzk"
+  ],
   "/10000link/info/:category?/:id?": [
     "nczitzk"
   ],
@@ -538,7 +541,8 @@
     "TonyRL"
   ],
   "/anthropic/news": [
-    "etShaw-zh"
+    "etShaw-zh",
+    "goestav"
   ],
   "/anthropic/research": [
     "ttttmr"
@@ -1925,6 +1929,9 @@
   "/curius/links/:name": [
     "Ovler-Young"
   ],
+  "/cursor/blog/:topic?": [
+    "johan456789"
+  ],
   "/cursor/changelog": [
     "p3psi-boo",
     "nczitzk"
@@ -2488,6 +2495,9 @@
   ],
   "/ecust/jwc/:category?": [
     "lxl66566"
+  ],
+  "/eeo/kuaixun": [
+    "nczitzk"
   ],
   "/egsea/flash": [
     "hillerliao"
@@ -5427,6 +5437,9 @@
   ],
   "/nationalgeographic/latest-stories": [
     "miles170"
+  ],
+  "/naturalism/": [
+    "TonyRL"
   ],
   "/nature/cover": [
     "y9c",
@@ -8887,6 +8900,12 @@
   "/xys/new": [
     "wenzhenl"
   ],
+  "/xyu/library": [
+    "JinMokai"
+  ],
+  "/xyu/index/tzgg": [
+    "JinMokai"
+  ],
   "/xyzrank/:category?": [],
   "/yahoo/news/:region/:category?": [
     "KeiLongW",
@@ -9243,6 +9262,9 @@
   ],
   "/zju/career/:type": [
     "Caicailiushui"
+  ],
+  "/zju/cse/:category?": [
+    "Rabbits-sys"
   ],
   "/zju/cst/custom/:id": [
     "zwithz"

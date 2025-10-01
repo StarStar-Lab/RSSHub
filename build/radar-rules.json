@@ -153,6 +153,19 @@
       }
     ]
   },
+  "0xxx.ws": {
+    "_name": "0xxx.ws",
+    ".": [
+      {
+        "title": "Source",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/"
+        ],
+        "target": "/0xxx(_,url)=>{const urlObj=new URL(url);const params=urlObj.searchParams;params.delete(\"next\");const filter=urlObj.searchParams.toString();return`/0xxx${filter?`/${filter}`:\"\"}`}"
+      }
+    ]
+  },
   "10000link.com": {
     "_name": "10000万联网",
     "info": [
@@ -12370,6 +12383,15 @@
     "_name": "Cursor",
     ".": [
       {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog",
+          "/blog/topic/:topic"
+        ],
+        "target": "/cursor/blog/:topic"
+      },
+      {
         "title": "Changelog",
         "docs": "https://docs.rsshub.app/routes/program-update",
         "source": [
@@ -14289,6 +14311,19 @@
           "/"
         ],
         "target": "/ecust/yjs"
+      }
+    ]
+  },
+  "eeo.com.cn": {
+    "_name": "经济观察网",
+    "www": [
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/kuaixun/"
+        ],
+        "target": "/eeo/kuaixun"
       }
     ]
   },
@@ -29139,6 +29174,19 @@
       }
     ]
   },
+  "naturalism.org": {
+    "_name": "Naturalism.org",
+    ".": [
+      {
+        "title": "What's New",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/"
+        ],
+        "target": "/naturalism/"
+      }
+    ]
+  },
   "nature.com": {
     "_name": "Nature Journal",
     ".": [
@@ -40797,7 +40845,7 @@
         "title": "轉角國際 - 首頁",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
-          "/global_vision/index/:category",
+          "/global_vision/index",
           "/"
         ],
         "target": "/udn/global/:category?"
@@ -42935,6 +42983,29 @@
           "/new.html"
         ],
         "target": "/xys/new"
+      }
+    ]
+  },
+  "xyc.edu.cn": {
+    "_name": "新余学院",
+    "lib": [
+      {
+        "title": "图书馆通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/index/tzgg.htm"
+        ],
+        "target": "/xyu/library"
+      }
+    ],
+    "www": [
+      {
+        "title": "官网通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/index/tzgg.htm"
+        ],
+        "target": "/xyu/index/tzgg"
       }
     ]
   },
