@@ -35441,8 +35441,7 @@ export default {
       "/:type?/:category?": {
         "path": "/:type?/:category?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/dx2025",
         "parameters": {
@@ -62330,7 +62329,8 @@ export default {
       "/topic/text/:id": {
         "path": "/topic/text/:id",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/jike/topic/text/553870e8e4b0cafb0a1bef68",
         "parameters": {
